@@ -1,0 +1,8 @@
+df = read_csv("C:\\Users\\Mehmet\\zahid_accessKeys.csv")
+columns = df.columns
+aws_acces_key_id = df[columns[0]].to_string()[5:]
+aws_secret_access_key = df[columns[1]].to_string()[5:]
+
+# !!! Please fill out the 'credentials' field below. Remember the service is paid !!!
+# I don't share my credentials inside any script for security reasons . It is not secure.
+# Altough the service is paid , we have free tier. Don't Panic for paying :)
